@@ -35,7 +35,7 @@ set sink1 [new Agent/TCPSink]
 $ns attach-agent $n0 $tcp1
 $ns attach-agent $n4 $sink1
 $ns connect $tcp1 $sink1
-$tcp1 set fid_ 1
+
 
 set ftp1 [new Application/FTP]
 $ftp1 attach-agent $tcp1
